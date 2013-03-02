@@ -1,4 +1,12 @@
 @charset "utf-8";
+/* Color Palette
+#F2EC99 - base
+#F2C48D - tan
+#F25050 - redish
+#67BFAD - light blue
+#1D3C42 - dark blue
+link: https://kuler.adobe.com/#themeID/2251599
+*/
 /* Simple fluid media
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
    http://www.alistapart.com/articles/fluid-images/ 
@@ -46,6 +54,10 @@ img, object, embed, video {
 }
 .footer {
 }
+.navlist {
+}
+.navitem {
+}
 .zeroMargin_mobile {
 margin-left: 0;
 }
@@ -69,8 +81,13 @@ display: none;
 	display: block;
 }
 .nav {
+	color: #1D3C42;
 }
 .footer {
+}
+.navlist {
+}
+.navitem {
 }
 .hide_tablet {
 display: none;
@@ -98,8 +115,18 @@ margin-left: 0;
 	display: block;
 }
 .nav {
+	color: #1D3C42;
+	height: 50px;
 }
 .footer {
+}
+.navlist {
+}
+.navitem {
+	list-style-type: none;
+	float: left;
+	margin: auto 5px;
+	min-width: 
 }
 .zeroMargin_desktop {
 margin-left: 0;
