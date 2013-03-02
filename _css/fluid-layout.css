@@ -58,6 +58,8 @@ img, object, embed, video {
 }
 .navitem {
 }
+.ppm {
+}
 .zeroMargin_mobile {
 margin-left: 0;
 }
@@ -88,6 +90,8 @@ display: none;
 .navlist {
 }
 .navitem {
+}
+.ppm {
 }
 .hide_tablet {
 display: none;
@@ -121,12 +125,17 @@ margin-left: 0;
 .footer {
 }
 .navlist {
+	margin:auto;
+	float: none;
+	width:60%;
 }
 .navitem {
 	list-style-type: none;
 	float: left;
-	margin: auto 5px;
+	margin: 12px 20px;
 	min-width: 
+}
+.ppm {
 }
 .zeroMargin_desktop {
 margin-left: 0;
