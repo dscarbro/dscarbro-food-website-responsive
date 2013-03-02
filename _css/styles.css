@@ -10,10 +10,12 @@ F25050
 link: https://kuler.adobe.com/#themeID/2251599
 */
 
-
-
 /* background objects */
 
-
+header{
+	color: #F2EC99;
+	width: 100%;
+	height: 50px;
+}
 
 /* end bgobjects */
